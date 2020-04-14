@@ -1,0 +1,128 @@
+/* Style rule for fieldset element */
+fieldset {
+    border-color: #000000;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+/* Style rule for label element */
+label {
+    display: block;
+}
+
+/* Style for input, select, and textarea form elements */
+input, select, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+/* Style rule for unordered list within a form */
+form ul {
+    list-style-type: none;
+}
+
+/* Style rule for field class */
+.field, .fieldRadio {
+    display: block;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+/* Style rule for p element in field class */
+.fieldRadio p {
+    margin-bottom: 0.5%;
+    padding: 0;
+}
+
+/* Style rule for btn class */
+.btn {
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 1%;
+    border-radius: 0.5em;
+    border: 0.25em solid #1A276B;
+    background-color: #5b70d7;
+    color: #FFFFFF;
+    padding: 0.5%;
+    display: inline;
+}
+
+/* Style rule for box class */
+.box {
+    border-radius: 0.5em;
+}
+
+/* Style rule for chkbx class */
+.chkbx {
+    display: inline-block;
+}
+
+/* Style rule for box class on focus*/
+.box:focus {
+    border: 0.25em solid #5b70d7;
+}
+
+/* Style rule for input and label element in fieldRadio class */
+.fieldRadio input, .fieldRadio label {
+    display: inline;
+}
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+@media only screen and (min-width: 481px) {
+    
+    /* Style rule for label element */
+    label {
+        float: left;
+        padding-right: 0.5em;
+        text-align: right;
+        width: 10em;
+    }
+
+    /* Style rule for label element in fieldRadio class*/
+    .fieldRadio label {
+        float: none;
+        padding-right: 0.5em;
+        width: 10em;
+    }
+
+    /* Style rule for btn class */
+    .btn {
+        margin-left: 12em;
+    }
+
+    /* Style rule for p element in field class */
+    .fieldRadio p {
+        display: contents;
+    }
+    
+}
+
+/* Media query for desktop viewport targets screen size with a minimum width of 796px. */
+@media only screen and (min-width: 796px) {
+    
+    /* Style rule for label element */
+    label {
+        float: left;
+        padding-right: 0.5em;
+        text-align: right;
+        width: 10em;
+    }
+
+    /* Style rule for label element in fieldRadio class*/
+    .fieldRadio label {
+        float: none;
+        padding-right: 0.5em;
+        width: 10em;
+    }
+
+    /* Style rule for btn class */
+    .btn {
+        margin-left: 12em;
+    }
+
+    /* Style rule for p element in field class */
+    .fieldRadio p {
+        display: contents;
+    }
+    
+}

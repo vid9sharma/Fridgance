@@ -1,0 +1,263 @@
+/* Style for body specifies a background color */
+body {
+    background-color: #5b70d7;
+}
+
+/* Style for container centers the page and sets the element width  */
+#container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style for header specifies top margins, background color, rounded corners, and center-aligns content */
+header {
+    background-color: #1A276B;
+    border-radius: 1em;
+    /* box-shadow: 1em 1em 1em #737373; */
+    padding: 2%;
+}
+
+/* Style for logo to create a fluid image and specifies padding */
+header img {
+    padding: 1%;
+    max-width: 100%;
+}
+
+/* Style for the nav specifies text properties and top margin */
+nav {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Style specifies style for unordered list */
+nav ul {
+    padding: 0;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+/* Style for nav li specifies the display and padding for list items within the navigation */
+nav li {
+    padding: 0.4%;
+    background-color: #1A276B;
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 0.3%;
+    padding: 0.4%;
+}
+
+/* Style changes navigation link text color and removes the underline */
+nav li a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+nav li a:hover {
+    opacity: 0.5;
+}
+
+/* Style for main element */
+main {
+    clear: left;
+    margin-top: 5%;
+}
+
+/* Style for heading in main element */
+main h1 {
+    font-size: 1.75em;
+}
+
+/* Style specifies padding for the section element */
+section {
+    background-color: #1A276B;
+    /* margin-top: 2.5%; */
+    margin-bottom: 2.5%;
+    border-radius: 1em;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 1%;
+    color: #FFFFFF;
+    overflow: auto;
+}
+
+/* Style for div element in the section element */
+section div {
+    background-color:#F2F2F2;
+    margin: 2%;
+    color: #000000;
+    border-radius: 2em 0.5em 2em 0.5em;
+}
+
+/* Style specifies margin and padding for paragraph element */
+p {
+    /* margin: 2%; */
+    padding: 1%;
+}
+
+/* Style for image in the section element */
+section img {
+    float: left;
+    max-width: 20%;
+    margin-right: 5%;
+}
+
+article img {
+    max-width: 15%;
+}
+
+/* Style for heading in the section element specifies padding and margin properties */
+section h2 {
+    padding-top: 1%;
+    margin-bottom:1%;
+    padding-left: 1%;
+    clear: left;
+}
+
+/* Style for unordered list in the section element specifies padding and type of list style */
+section ul {
+    padding: 1%;
+    list-style-position: inside;
+    text-align: left;
+    list-style-type: none;
+}
+
+/* Style footer specifies font size and text alignment */
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    color: #FFFFFF;
+}
+
+/* Style for a element in footer */
+footer a {
+    color: #FFFFFF;
+}
+
+/* Style for actualPrice class */
+.actualPrice {
+    text-decoration: line-through;
+    color: red;
+}
+
+/* Style for salePrice class */
+.salePrice {
+    font-weight: bold;
+}
+
+/* Style for guarantee class */
+.guarantee {
+    font-style: italic;
+}
+
+/* Style for image in guarantee class */
+.guarantee img {
+    max-width: 10%;
+    float: right;
+    /* display: block; */
+}
+
+/* Style hides the desktop class */
+.desktop {
+    display: none;
+}
+
+/* Style for underline class */
+.underline {
+    list-style-type: disc;
+}
+
+/* Style for img element in marquee tag */
+marquee img {
+    max-width: 50%;
+}
+
+/* Style for image class on hover */
+.container:hover .image {
+    opacity: 0.3;
+}
+  
+/* Style for image class on hover */
+.container:hover .text {
+    opacity: 1;
+}
+
+/* Style for text class */
+.text {
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    background-color: #1A276B;
+    color: white;
+    padding: 1%;
+}
+
+/* Style hides the desktopBanner class */
+.desktopBanner {
+    display: none;
+}
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+@media only screen and (min-width: 481px) {
+    nav li {
+        display: inline;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 0;
+        padding-right: 0;
+        width: 12%;
+    }
+
+    /* Style hides the desktop class */
+    .desktop {
+        display: inline-block;
+    }
+
+    /* Style hides the desktopBanner class */
+    .desktopBanner {
+        display: none;
+    }
+
+    .underline {
+        text-decoration: underline;
+    }
+}
+
+/* Media query for desktop viewport targets screen size with a minimum width of 796px. */
+@media only screen and (min-width: 796px) {
+    /* Style for the nav specifies text properties and top margin */
+    nav {
+        margin-top: -4%;
+        text-align: right;
+    }
+
+    /* Style for nav li specifies the display and padding for list items within the navigation */
+    nav li {
+        display: inline;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 0;
+        padding-right: 0;
+        width: 12%;
+        float: none;
+    }
+
+    /* Style for heading in main element */
+    main h1 {
+        margin-bottom: -2%;
+    }
+
+    /* Style hides the mobile class */
+    .mobile {
+        display: none;
+    }
+
+    /* Style displays the desktopBanner class */
+    .desktopBanner {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,86 @@
+/* Style for image in the article element */
+article img {
+    max-width: 60%;
+    position: relative;
+}
+
+/* Style for aside element */
+aside {
+    max-width: 70%;
+}
+
+/* Style for h5 element */
+h5 {
+    margin-top: -5%;
+}
+
+/* Style for div element with class memeber */
+.member {
+    background-color: transparent;
+    color: #FFFFFF;
+    clear: left;
+}
+
+/* Style hides the desktop class */
+.desktop {
+    display: none;
+}
+
+/* Style hides the tablet class */
+.tablet {
+    display: none;
+}
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+@media only screen and (min-width: 481px) {
+    
+    /* Style hides the desktop class */
+    .desktop {
+        display: none;
+    }
+
+    article {
+        padding: 1%;
+    }
+
+    /* Style hides the tablet class */
+    .tablet {
+        display: inline-block;
+    }
+
+    /* Style for h5 element */
+    h5 {
+        margin-top: -3%;
+    }
+
+    aside {
+        max-width: 100%;
+    }
+
+}
+
+/* Media query for desktop viewport targets screen size with a minimum width of 796px. */
+@media only screen and (min-width: 796px) {
+
+    /* Style for figure element */
+    figure {
+        display: flex;
+    }
+
+    /* Style for article element */
+    article {
+        display: inline-table;
+        padding: 1%;
+        max-width: 30%;
+    }
+
+    /* Style hides the tablet class */
+    .tablet {
+        display: inline-block;
+    }
+
+    /* Style hides the desktop class */
+    .desktop {
+        display: inline-block;
+    }
+}
