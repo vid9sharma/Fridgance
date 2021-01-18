@@ -1,11 +1,11 @@
 /* Style for body specifies a background color */
 body {
-    background-color: #5b70d7;
+    background-color: #000000;
 }
 
 /* Style for container centers the page and sets the element width  */
 #container {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -42,21 +42,9 @@ nav ul {
 /* Style for nav li specifies the display and padding for list items within the navigation */
 nav li {
     padding: 0.4%;
-    background-color: #1A276B;
     border-radius: 2em;
-    list-style-type: none;
     margin: 0.3%;
     padding: 0.4%;
-}
-
-/* Style changes navigation link text color and removes the underline */
-nav li a {
-    text-decoration: none;
-    color: #F2F2F2;
-}
-
-nav li a:hover {
-    opacity: 0.5;
 }
 
 /* Style for main element */
@@ -86,7 +74,7 @@ section {
 
 /* Style for div element in the section element */
 section div {
-    background-color:#F2F2F2;
+    background-color:#29C9F8;
     margin: 2%;
     color: #000000;
     border-radius: 2em 0.5em 2em 0.5em;
@@ -200,6 +188,10 @@ marquee img {
     display: none;
 }
 
+a {
+    cursor: pointer !important;
+}
+
 /* Media query for tablet viewport targets screen size with a minimum width of 660px. */
 @media only screen and (min-width: 481px) {
     nav li {
@@ -224,6 +216,7 @@ marquee img {
 
     .underline {
         text-decoration: underline;
+        cursor: pointer;
     }
 }
 

@@ -1,0 +1,49 @@
+/* https://coolors.co/000000-1a276b-59a5d8-84d2f6-d9f1fc */
+body {
+    background-color: #000000;
+}
+
+header {
+    background-color: #1a276b;
+}
+
+nav {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    color: #d9f1fc;
+}
+
+main {
+    background-color: #1a276b;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+section {
+    margin-bottom: 2.5%;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #d9f1fc;
+    overflow: auto;
+}
+
+section > h3 {
+    margin-left: 1%;
+}
+
+section div {
+    background-color: #59a5d8;
+    color: #151551;
+    padding: 1%;
+}
+
+section div p {
+    color: #000000;
+    font-size: 0.7em;
+    margin-top: -1.5em;
+}

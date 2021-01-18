@@ -12,8 +12,16 @@ label {
 
 /* Style for input, select, and textarea form elements */
 input, select, textarea {
-    display: block;
+    /* display: block; */
     margin-bottom: 1em;
+}
+
+input + span {
+    color: red;
+}
+
+textarea + span {
+    color: red;
 }
 
 /* Style rule for unordered list within a form */
@@ -41,8 +49,8 @@ form ul {
     margin-top: 1%;
     border-radius: 0.5em;
     border: 0.25em solid #1A276B;
-    background-color: #5b70d7;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
     padding: 0.5%;
     display: inline;
 }
@@ -66,6 +74,7 @@ form ul {
 .fieldRadio input, .fieldRadio label {
     display: inline;
 }
+
 
 /* Media query for tablet viewport targets screen size with a minimum width of 660px. */
 @media only screen and (min-width: 481px) {

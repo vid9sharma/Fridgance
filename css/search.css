@@ -1,0 +1,48 @@
+/* Style for input, select, and textarea form elements */
+input, select, textarea {
+    margin-bottom: 1em;
+}
+
+/* Style rule for box class */
+.box {
+    border-radius: 0.5em;
+}
+
+/* Style rule for box class on focus*/
+.box:focus {
+    border: 0.25em solid #5b70d7;
+}
+
+/* Style rule for btn class */
+#btnSearch {
+    cursor: pointer;
+    margin-top: 1%;
+    border-radius: 0.5em;
+    border: 0.25em solid #1A276B;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0.25%;
+}
+
+/* Style for heading in main element */
+main h1 {
+    font-size: 1em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #84d2f6;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.hidden{
+    display:none;
+}

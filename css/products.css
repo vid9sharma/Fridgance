@@ -1,0 +1,109 @@
+/* Styles for table elements */
+table {
+    border: 0.1em solid #000000;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Style specifies border and padding for th and td elements */
+th, td {
+    border: 0.1em solid #000000;
+    padding: 0.5em;
+}
+
+tr:nth-child(even) {
+    background-color: #e6f7ff;
+    color: #000000;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+tr:hover {
+    background-color: #1A276B;
+    color: #FFFFFF;
+}
+
+/* Style for th element */
+th {
+    background-color: #1e2d7b;
+    color: #FFFFFF;
+}
+
+/* Style for caption elemene */
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    color: #FFFFFF;
+}
+
+/* Style for div element with class memeber */
+.mobile, .desktop {
+    background-color: transparent;
+    color: #FFFFFF;
+    clear: left;
+}
+
+.hidden{
+    display:none;
+}
+
+/* Style hides the mobile class */
+/* .tabletDisplay {
+    display: none;
+} */
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+@media only screen and (min-width: 481px) {
+    
+    /* Style hides the desktop class */
+    .desktop {
+        display: inline-block;
+    }
+
+    /* Style hides the mobile class */
+    .mobile {
+        display: none;
+    }
+
+    /* Style hides the mobile class */
+    .tabletDisplay {
+        display: none;
+    }
+}
+
+/* Media query for desktop viewport targets screen size with a minimum width of 796px. */
+@media only screen and (min-width: 796px) {
+
+    /* Style for figure element */
+    figure {
+        display: flex;
+    }
+
+    /* Style for article element */
+    article {
+        display: inline-table;
+        padding: 1%;
+        max-width: 30%;
+    }
+
+    /* Style hides the tablet class */
+    .tablet {
+        display: inline-block;
+    }
+
+    /* Style hides the desktop class */
+    .desktop {
+        display: inline-block;
+    }
+
+    /* Style hides the mobile class */
+    .tabletDisplay {
+        display: table-cell;
+    }
+}

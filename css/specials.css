@@ -1,0 +1,33 @@
+#imageList img {
+    max-width: 8%;
+}
+
+h2, h4, ul, p {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	padding-bottom: 1em;
+}
+
+h2 {
+	padding-bottom: .25em;
+}
+
+h4 {
+    padding: .5em 0 .25em;
+}
+
+#imageList li {
+	padding-right: 10px;
+	display: inline;
+}
+
+a { 
+    position: relative; 
+}
+
+ul {
+    overflow: hidden;
+}
