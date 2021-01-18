@@ -6,7 +6,7 @@ $(document).ready(function() {
             alert("You must enter one or more tags!");
         } else {
             searchTerm = $("#search").val();
-            var url = "http://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?&tags=refrigerator," + searchTerm + "&tagmode=all";
+            var url = "https://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?&tags=refrigerator," + searchTerm + "&tagmode=all";
             
             $.getJSON(url, function(data) {
                 var html = "";
