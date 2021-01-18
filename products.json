@@ -1,0 +1,251 @@
+{"products":[
+    {
+        "name"      : "Samsung",
+        "stock"     : "HIT647",
+        "quantity"  : "5",
+        "size"      : "21.6 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "HIT877",
+        "quantity"  : "8",
+        "size"      : "17.5 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "HI9677",
+        "quantity"  : "2",
+        "size"      : "19.5 cu.ft.",
+        "color"     : "Black"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "HTS877",
+        "quantity"  : "6",
+        "size"      : "17.6 cu.ft.",
+        "color"     : "White"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "HTS878",
+        "quantity"  : "10",
+        "size"      : "17.6 cu.ft.",
+        "color"     : "Black"
+    },
+    {
+        "name"      : "LG",
+        "stock"     : "LG892",
+        "quantity"  : "4",
+        "size"      : "26 cu.ft.",
+        "color"     : "Grey"
+    },
+    {
+        "name"      : "LG",
+        "stock"     : "LG462",
+        "quantity"  : "9",
+        "size"      : "22 cu.ft.",
+        "color"     : "White"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "SM5390",
+        "quantity"  : "5",
+        "size"      : "21.5 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "SM9090",
+        "quantity"  : "5",
+        "size"      : "21.6 cu.ft.",
+        "color"     : "White"
+    },
+    {
+        "name"      : "Frigidaire",
+        "stock"     : "FD790",
+        "quantity"  : "9",
+        "size"      : "12 cu.ft.",
+        "color"     : "White",
+        "comment"   : "10 items"
+    },
+    {
+        "name"      : "Danby",
+        "stock"     : "DB548",
+        "quantity"  : "5",
+        "size"      : "3.1 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "Koolatron",
+        "stock"     : "SM9090",
+        "quantity"  : "7",
+        "size"      : "6.2 cu.ft.",
+        "color"     : "Grey Stainless Steel"
+    },
+    {
+        "name"      : "GE",
+        "stock"     : "GE465",
+        "quantity"  : "9",
+        "size"      : "11.55 cu.ft.",
+        "color"     : "White"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "SM9874",
+        "quantity"  : "3",
+        "size"      : "23 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "Frigidaire",
+        "stock"     : "FDE26",
+        "quantity"  : "6",
+        "size"      : "12 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "Danby",
+        "stock"     : "DS568",
+        "quantity"  : "5",
+        "size"      : "3.2 cu.ft.",
+        "color"     : "Silver"
+    },
+    {
+        "name"      : "Danby",
+        "stock"     : "DB385",
+        "quantity"  : "11",
+        "size"      : "3.2 cu.ft.",
+        "color"     : "Black"
+    },
+    {
+        "name"      : "Danby",
+        "stock"     : "DW194",
+        "quantity"  : "10",
+        "size"      : "3.2 cu.ft.",
+        "color"     : "White"
+    },
+    {
+        "name"      : "Frigidaire",
+        "stock"     : "FDK98",
+        "quantity"  : "9",
+        "size"      : "21.6 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "GE",
+        "stock"     : "GE568",
+        "quantity"  : "5",
+        "size"      : "11.55 cu.ft.",
+        "color"     : "Stainless Steel",
+        "comment"   : "20 items"
+    },
+    {
+        "name"      : "LG",
+        "stock"     : "LG9273",
+        "quantity"  : "11",
+        "size"      : "12 cu.ft.",
+        "color"     : "Platinum Silver"
+    },
+    {
+        "name"      : "LG",
+        "stock"     : "LG6392",
+        "quantity"  : "8",
+        "size"      : "10 cu.ft.",
+        "color"     : "White"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "SM658",
+        "quantity"  : "7",
+        "size"      : "28 cu.ft.",
+        "color"     : "Black"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "SMH765",
+        "quantity"  : "5",
+        "size"      : "21.8 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "SM237",
+        "quantity"  : "8",
+        "size"      : "24.7 cu.ft.",
+        "color"     : "Black"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "SMB988",
+        "quantity"  : "4",
+        "size"      : "27 cu.ft.",
+        "color"     : "Black"
+    },
+    {
+        "name"      : "LG",
+        "stock"     : "LG569",
+        "quantity"  : "5",
+        "size"      : "21.8 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "Whirlpool",
+        "stock"     : "WP7623",
+        "quantity"  : "12",
+        "size"      : "4.6 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "Samsung",
+        "stock"     : "SMB347",
+        "quantity"  : "6",
+        "size"      : "28 cu.ft.",
+        "color"     : "Black"
+    },
+    {
+        "name"      : "Danby",
+        "stock"     : "SM9090",
+        "quantity"  : "5",
+        "size"      : "5.4 cu.ft.",
+        "color"     : "Stainless Steel",
+        "comment"   : "30 items"
+    },
+    {
+        "name"      : "Unique",
+        "stock"     : "UW2089",
+        "quantity"  : "20",
+        "size"      : "2.3 cu.ft.",
+        "color"     : "White"
+    },
+    {
+        "name"      : "Whirlpool",
+        "stock"     : "WPSS67",
+        "quantity"  : "15",
+        "size"      : "12.9 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "LG",
+        "stock"     : "LGPS67",
+        "quantity"  : "7",
+        "size"      : "15 cu.ft.",
+        "color"     : "Platinum Silver"
+    },
+    {
+        "name"      : "Haier",
+        "stock"     : "HSS837",
+        "quantity"  : "5",
+        "size"      : "15 cu.ft.",
+        "color"     : "Stainless Steel"
+    },
+    {
+        "name"      : "GE",
+        "stock"     : "GES209",
+        "quantity"  : "5",
+        "size"      : "20.9 cu.ft.",
+        "color"     : "Slate",
+        "comment"   : "35 items"
+    }
+]}
