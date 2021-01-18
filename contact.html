@@ -7,22 +7,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/contact.css">
         <link rel="stylesheet" href="css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/jquery.highlight.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/contact.js"></script>
     </head>
     <body>
         <div id="container">
             <header>
-                <a href="index.html"><img src="images/Logo.png" alt="Company Logo"></a>
+                <a href="index.html"><img src="images/Fridgance.png" alt="Company Logo"></a>
             </header>
 
             <nav>
-                <ul>
+                <ul id="mainMenu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="team.html">Our Team</a></li>
+                    <li><a href="products.html">Our Products</a></li>
                     <li><a href="specials.html">Specials</a></li>
-                    <li><a href="training.html">Training</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
-                    <li><a>Reports</a></li>
+                    <li><a href="search.html">Search</a></li>
                 </ul>
             </nav>
 
@@ -30,16 +34,18 @@
                 <section>
                     <h2>Please fill the details below so that we can contact you as soon as possible.</h2>
 
-                    <form><!-- Start Form -->
+                    <form id="contactForm" name="contactForm" action="register.html" method="GET"><!-- Start Form -->
                         <fieldset>
                             <legend>Personal Information</legend>
                             <div class="field">
                                 <label for="fName">First Name:</label>
-                                <input class="box" type="text" name="fName" id="fName" placeholder="first name" autofocus required>
+                                <input class="box" type="text" name="fName" id="fName" placeholder="first name" autofocus>
+                                <span>*</span>
                             </div>
                             <div class="field">
                                 <label for="lName">Last Name:</label>
-                                <input class="box" type="text" name="lName" id="lName" placeholder="first name" required>
+                                <input class="box" type="text" name="lName" id="lName" placeholder="first name">
+                                <span>*</span>
                             </div>
                             <div class="fieldRadio">
                                 <p>Gender:</p>
@@ -60,11 +66,12 @@
                             <legend>Contact Information</legend>
                             <div class="field">
                                 <label for="email">Email:</label>
-                                <input class="box" type="email" name="email" id="email"  placeholder="abc@xyz.com" >
+                                <input class="box" type="email" name="email" id="email"  placeholder="abc@xyz.com"><span>*</span>
                             </div>
                             <div class="field">
                                 <label for="phone">Phone:</label>
                                 <input class="box" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="999-999-9999">
+                                <span>*</span>
                             </div>
                         </fieldset>
 
@@ -91,12 +98,13 @@
                             </div>
                             <div class="field">
                                 <label for="questions">Questions?</label>
-                                <textarea class="box" id="questions" name="questions" rows="3" cols="25" placeholder="Type your question here" required></textarea>
+                                <textarea class="box" id="questions" name="questions" rows="3" cols="25" placeholder="Type your question here"></textarea>
+                                <span>*</span>
                             </div>
                         </fieldset>
 
-                        <input type="submit" id="submit" value ="Submit" class="btn">
-                        <input type="reset" id="reset" value="Reset Form" class="btn">
+                        <input type="submit" value ="Submit" class="btn">
+                        <input type="reset" value="Reset Form" class="btn">
                     </form>
                 </section>
             </main>
